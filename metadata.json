@@ -1,0 +1,5 @@
+{
+  "name": "WaveWarz Analytics",
+  "description": "Real-time analytics and statistics dashboard for WaveWarz live-traded music battles on Solana.",
+  "requestFramePermissions": []
+}
