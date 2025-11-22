@@ -27,7 +27,7 @@ export const fetchProgramTransactions = async (limit: number = 20): Promise<Pars
     }
 
     const data = await response.json();
-    return data.map((tx: any) => ({
+    return data.slice(0, limit).map((tx: any) => ({
       signature: tx.signature,
       timestamp: tx.timestamp,
       type: tx.type,
